@@ -1,6 +1,7 @@
 // Easy
 import 'package:coderbyte/easy/first_reverse.dart' as first_reverse;
 import 'package:coderbyte/easy/longest_word.dart' as longest_word;
+import 'package:coderbyte/easy/questions_mark.dart' as questions_mark;
 import 'package:coderbyte/easy/first_factorial.dart' as first_factorial;
 
 // Medium
@@ -12,6 +13,8 @@ void main(List<String> arguments) {
   print("Fist reverse: ${first_reverse.firstReverse("Coderbyte")}");
   print("Longest word: ${longest_word.longestWord("I Love You")}");
   print("First Factorial: ${first_factorial.firstFactorial(3)}");
+  print("Questions Marks: "
+      "${questions_mark.questionsMarks("arrb6???4xxbl5???eee5")}");
 
   // Medium
   print("Min Window Substring: ${min_window_substring.minWindowSubstring(
